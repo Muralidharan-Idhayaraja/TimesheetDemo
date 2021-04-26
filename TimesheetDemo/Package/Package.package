@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="06bc5cc9-f225-4c8a-b724-004993daa374" 
+        solutionId="06bc5cc9-f225-4c8a-b724-004993daa374" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="TimesheetDemo"
+        sharePointProductVersion="15.0">
+</package>
