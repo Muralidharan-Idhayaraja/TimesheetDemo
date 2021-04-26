@@ -1,0 +1,340 @@
+@media (min-width: 576px) {
+    .modal-sm {  max-width: 420px !important; }
+}
+
+@media (min-width: 250px) and (max-width: 576px) {
+    #divCalendar table tr td { height: 50px !important; padding: 0px 0px 3px 0px !important; }
+    span.start-time, span.end-time { font-size: 10px !important; }
+}
+
+@media (min-width: 577px) and (max-width: 650px) {
+    #divCalendar table tr td { height: 55px !important; padding: 0px 0px 6px 0px !important; }
+    span.start-time, span.end-time { font-size: 11px !important; }
+}
+
+
+@media (min-width: 651px) and (max-width: 700px) {
+    #divCalendar table tr td { height: 60px !important; padding: 0px 0px 8px 0px !important; }
+    span.start-time, span.end-time { font-size: 12px !important; }
+}
+
+@media (min-width: 701px) and (max-width: 768px) {
+    #divCalendar table tr td { height: 65px !important; }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    #divCalendar table tr td { height: 70px !important; }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    #divCalendar table tr td { height: 80px !important; }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1152px) {
+    #divCalendar table tr td { height: 100px !important; }
+}
+
+
+@media (min-width: 1153px) and (max-width: 1280px) {
+    #divCalendar table tr td { height: 120px !important; }
+}
+
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+    #divCalendar table tr td { height: 130px !important; }
+}
+
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    #divCalendar table tr td { height: 140px !important; }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    #divCalendar table tr td { height: 150px !important; }
+}
+
+
+
+
+@media (max-width:600px) {
+    .wrapper {
+        margin: 100px 15px 0px;
+    }
+    .maincontainer {
+        padding: 0px !important;
+        box-shadow: none;
+    }
+    .maincontainer > .row > div {
+        padding: 0px !important;
+    }
+    #myTabContent {
+        padding: 0px;
+    }
+    .tab-content {
+        border: none;
+        padding: 5px !important;
+    }
+    #example .demo-section, #example1 .demo-section {
+        width: 370px !important;
+    }
+     #example .k-listbox, #example1 .k-listbox, #example .k-listbox:first-of-type, #example1 .k-listbox:first-of-type, #employees {
+        width: 180px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .punchin-info { order: 1; }
+    .punchin-form { order: 3; }
+    .punchin-click { order: 2; }
+    .punchin-hours-container { position: inherit; padding-top: 20px;  }
+    .ribbon-btn { text-align: center; }
+    .ribbon-btn button{ margin: 5px auto 5px auto !important; display: block;  }
+    .punchin-hours .col-4, .punchin-hours .col-8 { flex: 0 0 50%; max-width: 50%;  }
+    .punchin-hours-container { bottom: 5px; }
+    #divCalendar table tr td {text-align: right !important;padding-right: 10px;}
+    span.start-time, span.end-time { line-height: 1; }
+    #divCalendar #calprev, #divCalendar #calnext { margin-bottom: 4px; }
+    #divCalendar #calprev { margin-left: 4px; }
+    #divCalendar #calnext { margin-right: 4px; }
+    .icon-menu + .maincontainer {
+        margin-left: 0px;
+    }
+    
+
+div#divCalendar table tr td, div#divCalendar table tr th {
+    font-size: 12px !important;
+}
+
+div#divCalendar table tr td {
+    padding-top: 5px !important;
+}
+
+div#divCalendar table tr td p.calday {
+    margin: 0px !important;
+}
+    .start-end-container {
+        left: 10px !important;
+    }
+    .start-end-container {
+    top: 5px !important;
+}
+
+.start-end-container div {
+   width: 20px !important;
+}
+
+.eventdetail span:nth-child(1) {
+    padding-left: 10px !important;
+    width: 0px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: inline-block !important;
+    height: 10px !important;
+}
+
+.eventdetail span:nth-child(2) {
+    display: none !important;
+}
+
+.start-end-container div {
+    height: 1px !important;
+    border: none !important;
+}
+
+
+span.btnNewEvent {
+    font-size: 10px !important;
+    right: 5px !important;
+    bottom: 0px !important;
+}
+
+
+
+div#resultsGrid th, div#resultsGrid  td {
+  display:none !important;
+}
+
+div#resultsGrid th:nth-child(2),
+div#resultsGrid td:nth-child(2),
+div#resultsGrid th:last-child,
+div#resultsGrid td:last-child,
+div#resultsGrid th:nth-last-child(2),
+div#resultsGrid td:nth-last-child(2)
+{
+  display:table-cell !important;
+  width: 33.33% !important;
+}
+
+
+}
+
+@media (max-width:991px) {
+    #contentBox { min-width: 100%; margin: 0px auto;  }
+    .navbar { height: 35px; }
+    .navbar-toggler { min-width: auto; margin: 0px; float: right; display: inline-block; position: absolute; right: -10px; top: 2px; z-index: 10; padding: 2px 5px; border-radius: 0 0; width: 40px; height: 30px;  }
+    .navbar-toggler .fa { padding: 0px;}
+    .left-mobilemenu-toggle { display: inline-flex; }
+    .leftcontainer { margin: 0px !important; }
+    .maincontainer { margin-left: 0px; }
+    .navbar-expand-lg .navbar-collapse { padding-left: 30px; position: absolute; left: -15px; right: -15px; background-color: white; z-index: 999; top: 35px; padding: 0px; }
+    .navbar-expand-lg .navbar-collapse li { margin-right: 0px; }
+    .navbar-collapse { padding-left: 0px; }
+    .username { padding-left: 0px; }
+    .maincontainer { width: 100%; }
+    .leftcontainer { display: none; /*position: absolute; left: 0; right: 0; top: -3px; background-color: #FFF;*/ z-index: 12; }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .k-scheduler-toolbar>ul.k-scheduler-views {
+        position: inherit;
+        right: inherit;
+        top: inherit;
+        z-index: inherit;
+    }
+    .k-scheduler-toolbar > ul.k-scheduler-views > li:not(.k-current-view) {
+        display: inline-block;
+    }
+    #buttons_AddEmployee .k-scheduler-toolbar > ul, #buttons_AddEmployee .k-scheduler-toolbar>ul:first-child {
+        float: none;
+        text-align: center;
+    }
+    #buttons_AddEmployee .k-scheduler-footer > ul > li, .k-scheduler-toolbar > ul > li {
+        border-width: 1px 1px 1px 1px;
+        margin-top:10px;
+    }
+    .heading-grid-month .col-md-2, .heading-grid-month .col-md-8 {
+        float: left;
+    }
+    .heading-grid-month {
+        margin-top: 10px;
+    }
+    .heading-grid-month .col-md-2 {
+        width: 15%;
+        position: absolute;
+        padding: 0px;
+    }
+    .heading-grid-month .col-md-2 button {
+        height: 30px;
+    }
+    .heading-grid-month .col-md-2:first-child{
+        left: 15px;
+    }
+    .heading-grid-month .col-md-2:last-child {
+        right: 15px;
+    }
+    .heading-grid-month .col-md-8 {
+        width: 65%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .month-Title {
+        border-radius: 10px 10px;
+    }
+    .quicksearch.right {
+        float: none;
+    }
+    #buttons_AddEmployee .p-2 {
+        height: auto !important;
+    }
+    .quicksearch.right {
+        float: none;
+        margin-bottom: 10px;
+    }
+   .search-filter button {
+        margin: 10px 0 !important;
+        display: inline-block;
+    }
+
+    .drpItemCurrency, .drpItemRole  {
+        width:110%;
+    }
+
+    .content-Invoice, .invoice-download {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+        .content-Invoice table {
+            width: 100%;
+        }
+        .invoice-download button {
+            max-width: 150px;
+            margin: 10px auto 10px auto;
+        }
+        .employee_roles .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+      
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .row-projectDetails {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .drpItemCurrency, .drpItemRole  {
+        width:110%;
+    }
+    .legend-contactcontainer, .legend-accountcontainer, .legend-rolecontainer
+    {
+            margin-top: 10px;
+    }
+    /*.addlegend
+    {
+       width: 18%;
+    }*/
+   
+
+}
+
+@media only screen and (max-width: 500px) {
+    .heading-grid-month .col-md-8 {
+        width: 50%;
+    }
+    .heading-grid-month .col-md-2 {
+        width: 20%;
+        position: absolute;
+        padding: 0px;
+    }
+    .legend-accountcontainer .headHTML{
+        display:none;
+    }
+    .legend-accountcontainer .row-account{
+        margin-top:20px;
+    }
+    .legend-accountcontainer .row-account div {
+        margin-top:6px;
+    }
+    .legend-accountcontainer .row-account .txtAddress{
+        margin-top:-7px;
+    }
+    .legend-accountcontainer .row-account .delete{
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .legend-contactcontainer  .headHTML{
+        display:none;
+    }
+    .legend-contactcontainer .row-contact{
+        margin-top:20px;
+    }
+    .legend-contactcontainer .row-contact div {
+        margin-top:6px;
+    }
+    .legend-contactcontainer .row-contact .delete{
+        text-align: left;
+        margin-top: 20px;
+    }
+     .legend-contactcontainer .row-contact .txtAddress{
+        margin-top:-7px;
+    }
+     .drpItemCurrency, .drpItemRole  {
+        width:105%;
+    }
+     
+}

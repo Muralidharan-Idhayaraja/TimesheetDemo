@@ -1,0 +1,180 @@
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=a0143215-41c5-4611-924f-254bd9ce9247");
+@font-face {
+  font-family: "Proxima N W01 Reg";
+  src: url("Fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix");
+  src: url("Fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix") format("eot"), url("Fonts/64017d81-9430-4cba-8219-8f5cc28b923e.woff2") format("woff2"), url("Fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff"), url("Fonts/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf") format("truetype"), url("Fonts/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235") format("svg"); }
+
+@font-face {
+  font-family: "Proxima N W01 Reg It";
+  src: url("Fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix");
+  src: url("Fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix") format("eot"), url("Fonts/129d49d6-5492-4ed1-96f7-0528c6d53abc.woff2") format("woff2"), url("Fonts/9c69c878-2255-4027-8632-ed3635cddf45.woff") format("woff"), url("Fonts/b7eb3871-e910-4522-9982-effb425a2714.ttf") format("truetype"), url("Fonts/a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf.svg#a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf") format("svg"); }
+
+@font-face {
+  font-family: "Proxima N W01 Smbd";
+  src: url("Fonts/87e4b4fc-cdf1-450a-8bed-dd818cba908d.eot?#iefix");
+  src: url("Fonts/87e4b4fc-cdf1-450a-8bed-dd818cba908d.eot?#iefix") format("eot"), url("Fonts/ae47a7f5-89da-4879-b934-29722c3dd451.woff2") format("woff2"), url("Fonts/70ae52ec-d89b-4c6a-9402-854ebe423c54.woff") format("woff"), url("Fonts/6a35571c-ea14-4dac-9ae1-0e7af0abeec8.ttf") format("truetype"), url("Fonts/ac2bdafc-d4a8-49d0-8a10-4e2f16bf7e3c.svg#ac2bdafc-d4a8-49d0-8a10-4e2f16bf7e3c") format("svg"); }
+
+@font-face {
+  font-family: "Proxima N W01 Smbd It";
+  src: url("Fonts/06ebb3e2-5f11-4e26-8736-0f7acb3c7743.eot?#iefix");
+  src: url("Fonts/06ebb3e2-5f11-4e26-8736-0f7acb3c7743.eot?#iefix") format("eot"), url("Fonts/df119bf8-cb81-4373-9682-6054d9dd0770.woff2") format("woff2"), url("Fonts/d2a02f92-9826-4117-ae36-8fcfd72ad46e.woff") format("woff"), url("Fonts/d786d7d1-696a-47f9-9d03-7608fcb29cc4.ttf") format("truetype"), url("Fonts/e7fe23f1-b364-4a20-905a-86ed7e89efae.svg#e7fe23f1-b364-4a20-905a-86ed7e89efae") format("svg"); }
+
+@font-face {
+  font-family: "Proxima N W01 Bold";
+  src: url("Fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix");
+  src: url("Fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix") format("eot"), url("Fonts/0d416408-95c6-4ad7-b08d-e60573d3b37d.woff2") format("woff2"), url("Fonts/d999c07b-a049-4eb5-b8a6-4f36ae25e67e.woff") format("woff"), url("Fonts/4d4a75f5-d32a-4a09-8665-133afd39cc37.ttf") format("truetype"), url("Fonts/8152bc4e-d700-4c78-b6be-326893e6f53f.svg#8152bc4e-d700-4c78-b6be-326893e6f53f") format("svg"); }
+
+@font-face {
+  font-family: "Proxima N W01 Bold It";
+  src: url("Fonts/cb0c3396-af1a-4c16-95aa-8085e21044c7.eot?#iefix");
+  src: url("Fonts/cb0c3396-af1a-4c16-95aa-8085e21044c7.eot?#iefix") format("eot"), url("Fonts/a6315c03-b55d-42b0-8ed6-79060867137d.woff2") format("woff2"), url("Fonts/46d5674a-f287-4240-b87a-f207aeb83064.woff") format("woff"), url("Fonts/9bd640b2-9a56-4391-b213-767ae9c30ef4.ttf") format("truetype"), url("Fonts/1500822b-1abc-4461-81dd-b48cfcf99020.svg#1500822b-1abc-4461-81dd-b48cfcf99020") format("svg"); }
+
+
+@font-face {
+  font-family: "Proxima N W01 Black";
+  src: url("Fonts/9b05cd3b-19d8-496a-816b-8de46cf24af1.eot?#iefix");
+  src: url("Fonts/9b05cd3b-19d8-496a-816b-8de46cf24af1.eot?#iefix") format("eot"), url("Fonts/a086d1e1-d71a-4248-bc5b-6a91bbda0756.woff2") format("woff2"), url("Fonts/43106d4c-07a9-48c0-bdeb-d82f359c85f5.woff") format("woff"), url("Fonts/7783372a-b74a-4eb3-902f-ab18b106eb46.ttf") format("truetype"), url("Fonts/22e79766-6290-47c1-b1af-93665675dd48.svg#22e79766-6290-47c1-b1af-93665675dd48") format("svg"); }
+
+#s4-workspace {
+  font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px !important;
+  letter-spacing: 0.1em;
+  color: #000000;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+#s4-titlerow {
+  display: inline-table !important; }
+
+#contentRow {
+  padding-top: 0px; }
+
+h1, h2, h3, h4, h5, h6, .ms-siteHeader-siteName {
+  font-family: "Proxima N W01 Smbd", Helvetica, Arial, sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  color:#006aa1 !important;
+}
+
+h1 > span, .ms-siteHeader-siteName > span {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-color: #1E93AB; }
+
+.ms-tileview-tile-content, .ms-storefront-appiconspan {
+  background-color: #1E93AB; }
+
+#siteIcon {
+  min-width: 180px;
+  min-height: 64px; }
+
+.ms-core-form-heading {
+  color: #1E93AB; }
+
+a, .ms-link:visited, .ms-webpart-titleText > a, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected, a.ms-tv-item, a.ms-tv-header {
+  color: #777777; }
+
+.ms-link:hover, a:hover, a:active, .ms-webpart-titleText > a:hover, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover, .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover, a.ms-tv-item:hover, a.ms-tv-header:hover {
+  color: #000000; }
+
+.ms-metadata, .ms-descriptiontext, .ms-secondaryCommandLink, .ms-core-navigation, .ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item, .ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenuEdit, .ms-core-listMenu-heading, .ms-tv-header {
+  font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif !important; }
+
+li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover, li > a.ms-core-listMenu-item:hover, li > a.ms-core-listMenu-item:active {
+  background-color: rgba(30, 147, 171, 0.3); }
+
+.ms-vl-apptilehover:hover {
+  background-color: rgba(30, 147, 171, 0.3); }
+
+.ms-pivotControl-surfacedOpt:hover, .ms-pivotControl-overflowDot:hover, .ms-pivotControl-surfacedOpt-selected {
+  color: #000000; }
+
+.ms-heroCommandLink, .ms-heroCommandLink:visited {
+  color: #1E93AB; }
+
+.ms-core-pageTitle {
+  font-size: 30px;
+  font-family: "Proxima N W01 Smbd", Helvetica, Arial, sans-serif; }
+
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+  font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif !important; }
+
+#apptile-appadd div.ms-vl-appimage {
+  background-image: url(https://ferragamogroup.sharepoint.com/sites/Japan_QA/Style%20Library/images/spcommon.png?csf=1);
+  background-position-y: -30px; }
+  #apptile-appadd div.ms-vl-appimage img {
+    display: none; }
+
+#Tile_WPQ2_4_1 {
+  display: none; }
+
+/*this is for having the title row go below the ribbon when display property is set as !important*/
+/*
+#s4-ribbonrow{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+#s4-workspace{
+	margin-top: 32px;
+}
+*/
+#DeltaTopNavigation ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  #DeltaTopNavigation ul li {
+    vertical-align: top;
+    padding-right: 10px;
+    display: table-cell;
+    white-space: normal; }
+
+html.ms-dialog #s4-titlerow.ms-dialogHidden {
+  display: none !important; }
+
+html.ms-dialog #s4-workspace {
+  margin-top: 0px; }
+
+.teamShopHomeTable tbody > tr > td {
+  width: 33%;
+  text-align: center;
+  vertical-align: top !important;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.teamShopHomeTable tbody > tr > td:nth-child(2) {
+  padding-left: 30px;
+  padding-right: 0px; }
+
+.teamShopHomeTable td.teamShopTemplates img {
+  width: 100%; }
+
+.teamShopHomeTable td.teamShopTemplates > div, .teamShopHomeTable td.teamShopTemplates > div > div, .teamShopHomeTable td.teamShopTemplates > div > div > div, .teamShopHomeTable td.teamShopTemplates > div > div > div > div {
+  height: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.teamShopHomeTable tr.topRow td img {
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000; }
+
+a.clickNewSite {
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid red;
+  padding: 5px; }
+
+a.clickNewSite:hover {
+  text-decoration: none !important;
+  color: red; }

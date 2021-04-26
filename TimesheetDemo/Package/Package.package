@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="06bc5cc9-f225-4c8a-b724-004993daa374" 
-        solutionId="06bc5cc9-f225-4c8a-b724-004993daa374" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="TimesheetDemo"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="06bc5cc9-f225-4c8a-b724-004993daa374" solutionId="06bc5cc9-f225-4c8a-b724-004993daa374" resetWebServer="false" sharePointProductVersion="15.0" name="TimesheetDemo" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="441c627a-f1aa-47c2-832e-cd0e838a9a59" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="e0c07407-0323-421a-a487-81836d1f0d8a" />
+  </projectItems>
 </package>

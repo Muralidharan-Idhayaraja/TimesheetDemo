@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="06bc5cc9-f225-4c8a-b724-004993daa374" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="TimesheetDemo.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="TimesheetDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4dc97f073c3a518d" Namespace="TimesheetDemo.Webparts.TimeTrack" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-Bold.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-ExtraLight.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-Oblique.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-Bold.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-BoldOblique.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-Oblique.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-Bold.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-BoldItalic.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-Italic.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.eot" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.woff" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.eot" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.ttf" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.woff" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.common.min.css.map" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.default.min.css.map" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.office365.min.css.map" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.min.map" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\json1.json" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\jquery.mCustomScrollbar.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\main - Copy.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\main.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\ovewrite.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\responsive.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\css\ThemeO365.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\datepicker\bootstrap-datetimepicker.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\datepicker\bootstrap-datetimepicker.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\datepicker\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\datepicker\bootstrap.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\datepicker\moment.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.print.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\jquery.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\moment.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\full-calendar\theme-chooser.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\editor.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\imagebrowser.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\indeterminate.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\loading-image.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\loading.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\loading_2x.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\markers.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\markers_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\slider-h.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\slider-v.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_kpi.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_kpi_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\LICENSE.txt" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.svg" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.svg" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.all.min - Copy.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.all.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.bootstrap.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.common-bootstrap.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.common.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.culture.en-US.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.default.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.man.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.messages.en-US.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\kendo.office365.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\loading-image.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\loading.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\sprite.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_kpi.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_kpi_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\loading-image.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\loading.gif" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_kpi.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_kpi_2x.png" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\toastr\toastr.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Designs\toastr\toastr.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\App.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_Client.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_Kendo.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_KendoCore.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Control_PeoplePicker.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Elements.xml" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.intellisense.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\jquery.mCustomScrollbar.concat.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\kendo\kendo.all.min.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\kendo\kendo.common.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\kendo\kendo.man.min.css" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\kendo\reminderConstants.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\kendo\remindersList.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\main.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\spcrud.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\_references.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="TimesheetDemo_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -41,9 +41,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
@@ -51,18 +55,144 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Webparts\TimeTrack\TimeTrack.ascx.cs">
+      <DependentUpon>TimeTrack.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\TimeTrack\TimeTrack.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeTrack.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{441c627a-f1aa-47c2-832e-cd0e838a9a59}</FeatureId>
+    </None>
     <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e0c07407-0323-421a-a487-81836d1f0d8a}</SharePointProjectItemId>
+    </None>
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-Bold.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-BoldOblique.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-ExtraLight.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans-Oblique.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSans.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-Bold.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-BoldOblique.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono-Oblique.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSansMono.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-Bold.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-BoldItalic.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif-Italic.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\DejaVuSerif.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.eot" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.woff" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.eot" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.ttf" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.woff" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.common.min.css.map" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.default.min.css.map" />
+    <None Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.office365.min.css.map" />
+    <None Include="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.min.map" />
+    <None Include="Layouts\TimesheetDemo\Scripts\json1.json" />
     <None Include="Package\Package.package">
       <PackageId>{06bc5cc9-f225-4c8a-b724-004993daa374}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Webparts\TimeTrack\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52030587-d6fe-4b6e-9432-f751b173dbd0}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\TimeTrack\TimeTrack.webpart" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\TimesheetDemo\Designs\css\jquery.mCustomScrollbar.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\css\main - Copy.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\css\main.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\css\ovewrite.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\css\responsive.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\css\ThemeO365.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\datepicker\bootstrap-datetimepicker.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\datepicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\datepicker\bootstrap.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\datepicker\bootstrap.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\datepicker\moment.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\fullcalendar.print.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\jquery.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\moment.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\full-calendar\theme-chooser.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\editor.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\imagebrowser.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\indeterminate.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\loading-image.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\loading.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\loading_2x.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\markers.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\markers_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\slider-h.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\slider-v.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_kpi.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Default\sprite_kpi_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\DejaVu\LICENSE.txt" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\KendoUIGlyphs.svg" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\fonts\glyphs\WebComponentsIcons.svg" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.all.min - Copy.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.all.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.bootstrap.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.common-bootstrap.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.common.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.culture.en-US.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.default.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.man.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.messages.en-US.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\kendo.office365.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\loading-image.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\loading.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\sprite.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_kpi.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\None\sprite_kpi_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\loading-image.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\loading.gif" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_kpi.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\Kendo\Office365\sprite_kpi_2x.png" />
+    <Content Include="Layouts\TimesheetDemo\Designs\toastr\toastr.css" />
+    <Content Include="Layouts\TimesheetDemo\Designs\toastr\toastr.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\App.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_Client.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_Kendo.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_KendoCore.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Control_PeoplePicker.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Elements.xml" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\kendo\kendo.all.min.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\kendo\kendo.common.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\kendo\kendo.man.min.css" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\kendo\reminderConstants.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\kendo\remindersList.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\main.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\spcrud.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\_references.js" />
+    <Content Include="Webparts\TimeTrack\Elements.xml" />
+    <Content Include="Webparts\TimeTrack\TimeTrack.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>TimeTrack.ascx.g.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts1">
+    <File Path="Scripts1\App.js" Url="Scripts1/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\AppConstants.js" Url="Scripts1/Controller/AppConstants.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Admin.js" Url="Scripts1/Controller/Control_Admin.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Client.js" Url="Scripts1/Controller/Control_Client.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ClientDetail.js" Url="Scripts1/Controller/Control_ClientDetail.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Common.js" Url="Scripts1/Controller/Control_Common.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_CompanyDetails.js" Url="Scripts1/Controller/Control_CompanyDetails.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_CompanyInfo.js" Url="Scripts1/Controller/Control_CompanyInfo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Contractor.js" Url="Scripts1/Controller/Control_Contractor.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ContractorDetails.js" Url="Scripts1/Controller/Control_ContractorDetails.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Dashboard.js" Url="Scripts1/Controller/Control_Dashboard.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Employee.js" Url="Scripts1/Controller/Control_Employee.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_EmployeeDetails.js" Url="Scripts1/Controller/Control_EmployeeDetails.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_EventDetail.js" Url="Scripts1/Controller/Control_EventDetail.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Invoice.js" Url="Scripts1/Controller/Control_Invoice.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_InvoiceList.js" Url="Scripts1/Controller/Control_InvoiceList.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Kendo.js" Url="Scripts1/Controller/Control_Kendo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ListCreation.js" Url="Scripts1/Controller/Control_ListCreation.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Navigation.js" Url="Scripts1/Controller/Control_Navigation.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Project.js" Url="Scripts1/Controller/Control_Project.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ProjectDetails.js" Url="Scripts1/Controller/Control_ProjectDetails.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ReportTimesheets.js" Url="Scripts1/Controller/Control_ReportTimesheets.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_TimeEntry.js" Url="Scripts1/Controller/Control_TimeEntry.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Timesheet.js" Url="Scripts1/Controller/Control_Timesheet.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_TimesheetApprover.js" Url="Scripts1/Controller/Control_TimesheetApprover.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\kendo\kendo.all.min.js" Url="Scripts1/kendo/kendo.all.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\kendo\kendo.common.min.css" Url="Scripts1/kendo/kendo.common.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts1\kendo\kendo.man.min.css" Url="Scripts1/kendo/kendo.man.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts1\kendo\reminderConstants.js" Url="Scripts1/kendo/reminderConstants.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\kendo\remindersList.js" Url="Scripts1/kendo/remindersList.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Control_PeoplePicker.js" Url="Scripts1/Control_PeoplePicker.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Control_Reports.js" Url="Scripts1/Control_Reports.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Control_TimeEntry.js" Url="Scripts1/Control_TimeEntry.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_Common - Copy.js" Url="Scripts1/Controller/Control_Common - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts1\Controller\Control_ApproveTimeOffRequests.js" Url="Scripts1/Controller/Control_ApproveTimeOffRequests.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
