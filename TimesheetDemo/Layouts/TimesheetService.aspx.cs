@@ -20,6 +20,27 @@ namespace TimesheetDemo.Layouts
             return "String works";
         }
 
+
+        [WebMethod]
+        public static string AddTime(TimesheetType addTime)
+        {
+
+            using (SPSite site = new SPSite(SPContext.Current.Site.Url))
+            {
+                using (SPWeb web = site.OpenWeb())
+                {
+                    SPList list = web.Lists["Timesheet"];
+                    SPListItem item = list.Items.Add();
+                    item["Title"] = addTime.title;
+                    item.Update();
+                }
+
+            }
+
+            return "success";
+
+        }
+
         /// <summary>
         /// This retrieves all Time Entries for the Current User
         /// </summary>
@@ -42,9 +63,9 @@ namespace TimesheetDemo.Layouts
 
             SPListItemCollection itemCollection = Utility.ListItemCollection(SPContext.Current.Site.Url, "Timesheet", qry);
 
-            if (itemCollection!=null)
+            if (itemCollection != null)
             {
-                if(itemCollection.Count>0)
+                if (itemCollection.Count > 0)
                 {
                     foreach (SPListItem item in itemCollection)
                     {
@@ -62,7 +83,7 @@ namespace TimesheetDemo.Layouts
                         });
                     }
                 }
-               
+
             }
 
             return timeCollection;
