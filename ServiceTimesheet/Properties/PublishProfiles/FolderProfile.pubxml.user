@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Demos\PublishTestService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:18</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:18</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:20</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:20</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:20</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:16</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:16</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:16</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AnalysisServices.AdomdClient.dll">
+      <publishTime>10/14/2005 03:43:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.BusinessData.dll">
+      <publishTime>01/23/2014 08:05:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>12/12/2012 12:02:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>12/12/2012 12:02:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Extensions.dll">
+      <publishTime>08/30/2012 23:20:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.mshtml.dll">
+      <publishTime>12/18/2020 11:44:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.DocumentManagement.dll">
+      <publishTime>04/15/2020 00:52:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Excel.Server.Udf.dll">
+      <publishTime>01/23/2014 08:05:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Excel.Server.WebServices.dll">
+      <publishTime>01/23/2014 08:05:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Policy.dll">
+      <publishTime>04/15/2020 00:52:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.SecureStoreService.Server.Security.dll">
+      <publishTime>01/23/2014 08:06:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Server.dll">
+      <publishTime>04/15/2020 19:36:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Server.Search.Applications.dll">
+      <publishTime>04/15/2020 00:52:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Server.Search.Connector.dll">
+      <publishTime>04/15/2020 00:52:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Server.Search.dll">
+      <publishTime>04/15/2020 00:52:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Office.Server.UserProfiles.dll">
+      <publishTime>04/15/2020 00:52:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.dll">
+      <publishTime>04/15/2020 00:12:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Runtime.dll">
+      <publishTime>04/15/2020 00:12:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Search.dll">
+      <publishTime>04/15/2020 00:12:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.ServerRuntime.dll">
+      <publishTime>04/15/2020 00:52:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Taxonomy.dll">
+      <publishTime>04/15/2020 00:53:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.UserProfiles.dll">
+      <publishTime>04/15/2020 00:12:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.dll">
+      <publishTime>04/15/2020 19:36:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Portal.dll">
+      <publishTime>04/15/2020 00:52:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Publishing.dll">
+      <publishTime>04/15/2020 00:52:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Search.dll">
+      <publishTime>04/15/2020 00:53:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Search.Extended.Administration.Common.dll">
+      <publishTime>01/23/2014 08:05:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Search.Extended.Administration.dll">
+      <publishTime>01/23/2014 08:05:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Search.Extended.Administration.ResourceStorage.dll">
+      <publishTime>01/23/2014 08:05:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Security.dll">
+      <publishTime>01/23/2014 05:53:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Taxonomy.dll">
+      <publishTime>04/15/2020 00:52:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Administration.dll">
+      <publishTime>03/08/2016 11:28:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.CommandUI.dll">
+      <publishTime>04/15/2020 19:36:30</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:44</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:42</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:42</publishTime>
+    </File>
+    <File Include="bin/ServiceTimesheet.dll">
+      <publishTime>04/27/2021 18:56:12</publishTime>
+    </File>
+    <File Include="bin/ServiceTimesheet.pdb">
+      <publishTime>04/27/2021 18:56:12</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>12/12/2012 12:02:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>12/12/2012 12:02:36</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>04/26/2021 18:17:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/27/2021 19:41:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

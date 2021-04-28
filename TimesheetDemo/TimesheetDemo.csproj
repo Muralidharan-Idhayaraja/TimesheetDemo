@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <SandboxedSolution>False</SandboxedSolution>
+    <AssemblyDeploymentTarget>GlobalAssemblyCache</AssemblyDeploymentTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,15 +46,28 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\ISampleService.cs" />
+    <Compile Include="Code\SampleService.cs" />
+    <Compile Include="Layouts\TimesheetService.aspx.cs">
+      <DependentUpon>TimesheetService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\TimesheetService.aspx.designer.cs">
+      <DependentUpon>TimesheetService.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Webparts\TimeTrack\TimeTrack.ascx.cs">
       <DependentUpon>TimeTrack.ascx</DependentUpon>
@@ -65,6 +79,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Features\Feature1\Feature1.feature">
       <FeatureId>{441c627a-f1aa-47c2-832e-cd0e838a9a59}</FeatureId>
     </None>
@@ -107,7 +122,9 @@
     </None>
     <None Include="Webparts\TimeTrack\TimeTrack.webpart" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
@@ -171,6 +188,7 @@
     <Content Include="Layouts\TimesheetDemo\Designs\toastr\toastr.css" />
     <Content Include="Layouts\TimesheetDemo\Designs\toastr\toastr.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\App.js" />
+    <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_Timesheet.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_Client.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_Kendo.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\Controller\Control_KendoCore.js" />
@@ -188,6 +206,8 @@
     <Content Include="Layouts\TimesheetDemo\Scripts\main.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\spcrud.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\_references.js" />
+    <Content Include="Layouts\TimesheetDemo\SPService.svc" />
+    <Content Include="Layouts\TimesheetService.aspx" />
     <Content Include="Webparts\TimeTrack\Elements.xml" />
     <Content Include="Webparts\TimeTrack\TimeTrack.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>

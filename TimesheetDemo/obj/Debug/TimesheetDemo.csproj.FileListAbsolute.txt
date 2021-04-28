@@ -83,3 +83,5 @@ F:\GitHub\TimesheetDemo\obj\Debug\TimesheetDemo.csproj.CoreCompileInputs.cache
 F:\GitHub\TimesheetDemo\obj\Debug\TimesheetDemo.csproj.CopyComplete
 F:\GitHub\TimesheetDemo\obj\Debug\TimesheetDemo.dll
 F:\GitHub\TimesheetDemo\obj\Debug\TimesheetDemo.pdb
+F:\GitHub\TimesheetDemo\bin\Debug\TimesheetDemo.dll.config
+F:\GitHub\TimesheetDemo\obj\Debug\TimesheetDemo.csprojAssemblyReference.cache

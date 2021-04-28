@@ -91,6 +91,7 @@
     <TemplateFile Location="Layouts\TimesheetDemo\Designs\toastr\toastr.css" />
     <TemplateFile Location="Layouts\TimesheetDemo\Designs\toastr\toastr.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\App.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_Timesheet.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_Client.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_Kendo.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\Controller\Control_KendoCore.js" />
@@ -108,6 +109,8 @@
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\main.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\spcrud.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\_references.js" />
+    <TemplateFile Location="Layouts\TimesheetDemo\SPService.svc" />
+    <TemplateFile Location="Layouts\TimesheetService.aspx" />
   </TemplateFiles>
   <FeatureManifests>
     <FeatureManifest Location="TimesheetDemo_Feature1\Feature.xml" />

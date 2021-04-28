@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="TimesheetDemo Feature" Id="b993be2c-0a7a-4133-bfaa-f9c3edd0bd95" Scope="Site">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="b993be2c-0a7a-4133-bfaa-f9c3edd0bd95" Scope="Site" Title="TimesheetDemo Feature">
   <ElementManifests>
     <ElementManifest Location="TimeTrack\Elements.xml" />
     <ElementFile Location="TimeTrack\TimeTrack.webpart" />
