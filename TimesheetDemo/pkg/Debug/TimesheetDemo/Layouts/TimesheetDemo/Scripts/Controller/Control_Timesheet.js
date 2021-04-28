@@ -18,10 +18,11 @@ control_Timesheet.functions = function () {
         console.log('Collection');
 
         var siteURL = _spPageContextInfo.siteAbsoluteUrl;
+        var currentUserID = _spPageContextInfo.userId;
         return $.ajax({
             type: "POST",
             url: siteURL + "/_layouts/15/TimesheetService.aspx/GetTimeSheet",
-            data: '{userId:1}',
+            data: '{userId:"' + currentUserID + '"}',
             dataType: "json",
             contentType: "application/json; charset=utf-8",
             success: function (data) {
@@ -31,15 +32,14 @@ control_Timesheet.functions = function () {
                     $.each(data.d, function (index, item) {
 
                         var timeItem = {
-                            Title: item.title !== null ? item.title : '',
-                            Test: "Test"
-                            //clientname: item.Title != null ? item.Title : '',
-                            //clientlocation: item.Client_x002d_Location != null ? item.Client_x002d_Location : '',
-                            //countrycode: item.CountryCode != null ? item.CountryCode : '',
-                            //mobilenumber: item.PhoneNumber != null ? item.PhoneNumber : '',
-                            //email: item.Email != null ? item.Email : '',
-                            //workstatus: item.Status != null ? item.Status : ''
-
+                            title: item.title !== null ? item.title : '',
+                            description: item.description !== null ? $("<div>").html(item.description).text() : '',
+                            category: item.category !== null ? item.category : '',
+                            hours: item.hours !== null ? item.hours : '',
+                            hoursStandard: item.hoursStandard !== null ? item.hoursStandard : '',
+                            hoursOvertime: item.hoursOvertime !== null ? item.hoursOvertime : '',
+                            overtimeApproval: item.overtimeApproval !== null ? item.overtimeApproval : '',
+                            created: item.created !== null ? item.created : ''
                         };
                         window.TimeLogs.push(timeItem);
 
@@ -78,12 +78,26 @@ control_Timesheet.functions = function () {
                 buttonCount: 5
             },
             columns: [{
-                field: "Title",
+                field: "title",
                 title: "Title"
-            }, {
-                field: "Test",
-                title: "Test"
-            }]
+            },
+            {
+                field: "description",
+                title: "Description"
+            },
+            {
+                field: "category",
+                title: "Category"
+            },
+            {
+                field: 'hours',
+                title: 'Hours Submitted'
+            },
+            { field: 'hoursStandard', title: "Hours Standard" },
+            { field: 'hoursOvertime', title: "Hours Overtime" },
+            { field: 'overtimeApproval', title: "Overtime Approval" },
+            { field: 'created', title: 'Date' }
+            ]
         });
     }
 

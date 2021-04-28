@@ -148,15 +148,8 @@
                     <div class="col loaderContent1">
                         <ul class="nav nav-tabs" id="employeetab" role="tablist">
                             <li class="nav-item col pl-0 pr-0">
-                                <a class="nav-link emp_ViewAll active" id="tab-all-clients" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">All Clients</a>
+                                <a class="nav-link emp_ViewAll active" id="tab-all-clients" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timesheet Entries</a>
                             </li>
-                            <li class="nav-item col pl-0 pr-0">
-                                <a class="nav-link emp_Active" id="tab-active-clients" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Active Clients</a>
-                            </li>
-                            <li class="nav-item col pl-0 pr-0">
-                                <a class="nav-link emp_InActive" id="tab-inactive-clients" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Inactive Clients</a>
-                            </li>
-
 
                         </ul>
                         <div class="preloader1"><span class="preloader-content" id="preloader-Clients">Loading All Data...</span></div>
@@ -237,7 +230,7 @@
         onLoadSetup();
         $('#addemployee').click(function () {
             $('#tab_Employees').hide();
-        });        
+        });
     });
 
     function onLoadSetup() {
