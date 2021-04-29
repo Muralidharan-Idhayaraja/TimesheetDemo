@@ -109,7 +109,6 @@
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\main.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\spcrud.js" />
     <TemplateFile Location="Layouts\TimesheetDemo\Scripts\_references.js" />
-    <TemplateFile Location="Layouts\TimesheetDemo\SPService.svc" />
     <TemplateFile Location="Layouts\TimesheetService.aspx" />
   </TemplateFiles>
   <FeatureManifests>

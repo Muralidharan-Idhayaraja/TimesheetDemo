@@ -14,11 +14,7 @@ namespace TimesheetDemo.Layouts
         {
         }
 
-        [WebMethod]
-        public static string TestString()
-        {
-            return "String works";
-        }
+       
 
 
         [WebMethod]
@@ -56,17 +52,7 @@ namespace TimesheetDemo.Layouts
             return status;
         }
 
-        [WebMethod]
-        public static string TestTime(string value)
-        {
-            return "your value " + value;
-        }
-
-        [WebMethod]
-        public static string TestTimeString(List<string> item)
-        {
-            return "your value " + item.Count;
-        }
+            
 
         /// <summary>
         /// This retrieves all Time Entries for the Current User

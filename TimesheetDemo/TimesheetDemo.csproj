@@ -123,9 +123,6 @@
     <None Include="Webparts\TimeTrack\TimeTrack.webpart" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
@@ -206,7 +203,6 @@
     <Content Include="Layouts\TimesheetDemo\Scripts\main.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\spcrud.js" />
     <Content Include="Layouts\TimesheetDemo\Scripts\_references.js" />
-    <Content Include="Layouts\TimesheetDemo\SPService.svc" />
     <Content Include="Layouts\TimesheetService.aspx" />
     <Content Include="Webparts\TimeTrack\Elements.xml" />
     <Content Include="Webparts\TimeTrack\TimeTrack.ascx">

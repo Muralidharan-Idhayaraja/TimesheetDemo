@@ -202,24 +202,24 @@ namespace TimesheetDemo.Webparts.TimeTrack {
                         "laceholder=\"Task Title\">\r\n                                </div>\r\n              " +
                         "              </div>\r\n                            <div class=\"col-md-4 mb-2\">\r\n " +
                         "                               <div class=\"form-group\">\r\n                       " +
-                        "             <label for=\"First Name\">Description<em>*</em></label>\r\n            " +
-                        "                        <textarea class=\"form-control\" id=\"txtDescription\" place" +
-                        "holder=\"Task Description\"></textarea>\r\n                                </div>\r\n " +
-                        "                           </div>\r\n                            <div class=\"col-m" +
-                        "d-4 mb-2\">\r\n                                <div class=\"form-group\">\r\n          " +
-                        "                          <label for=\"Country Code\">Category</label>\r\n          " +
-                        "                          <select class=\"form-control\" id=\"drpCategory\" placehol" +
-                        "der=\"\">\r\n                                        \r\n                             " +
-                        "           <option value=\"Billing\" selected=\"selected\">Billing</option>\r\n       " +
-                        "                                 <option value=\"Non-Billable\">Non-Billable</opti" +
-                        "on>\r\n                                        <option value=\"Upskilling\">Upskilli" +
-                        "ng</option>\r\n                                        <option value=\"Meeting\">Mee" +
-                        "ting</option>\r\n                                    </select>\r\n                  " +
-                        "              </div>\r\n                            </div>\r\n                      " +
-                        "  </div>\r\n\r\n                        <div class=\"row\">\r\n                         " +
-                        "   <div class=\"col-md-4 mb-2\">\r\n                                <div class=\"form" +
-                        "-group\">\r\n                                    <label for=\"Mobile Number\">Total H" +
-                        "ours (including if overtime)</label>\r\n                                    <input" +
+                        "             <label for=\"First Name\">Description</label>\r\n                      " +
+                        "              <textarea class=\"form-control\" id=\"txtDescription\" placeholder=\"Ta" +
+                        "sk Description\"></textarea>\r\n                                </div>\r\n           " +
+                        "                 </div>\r\n                            <div class=\"col-md-4 mb-2\">" +
+                        "\r\n                                <div class=\"form-group\">\r\n                    " +
+                        "                <label for=\"Country Code\">Category</label>\r\n                    " +
+                        "                <select class=\"form-control\" id=\"drpCategory\" placeholder=\"\">\r\n " +
+                        "                                       \r\n                                       " +
+                        " <option value=\"Billing\" selected=\"selected\">Billing</option>\r\n                 " +
+                        "                       <option value=\"Non-Billable\">Non-Billable</option>\r\n     " +
+                        "                                   <option value=\"Upskilling\">Upskilling</option" +
+                        ">\r\n                                        <option value=\"Meeting\">Meeting</opti" +
+                        "on>\r\n                                    </select>\r\n                            " +
+                        "    </div>\r\n                            </div>\r\n                        </div>\r\n" +
+                        "\r\n                        <div class=\"row\">\r\n                            <div cl" +
+                        "ass=\"col-md-4 mb-2\">\r\n                                <div class=\"form-group\">\r\n" +
+                        "                                    <label for=\"Mobile Number\">Total Hours (incl" +
+                        "uding if overtime)<em>*</em></label>\r\n                                    <input" +
                         " type=\"number\" class=\"form-control\" id=\"txtHours\" placeholder=\"Enter the hours\">" +
                         "\r\n                                </div>\r\n                            </div>\r\n  " +
                         "                          <div class=\"col-md-4 mb-2\">\r\n                         " +

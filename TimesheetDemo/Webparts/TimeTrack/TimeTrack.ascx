@@ -88,7 +88,7 @@
                             </div>
                             <div class="col-md-4 mb-2">
                                 <div class="form-group">
-                                    <label for="First Name">Description<em>*</em></label>
+                                    <label for="First Name">Description</label>
                                     <textarea class="form-control" id="txtDescription" placeholder="Task Description"></textarea>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                         <div class="row">
                             <div class="col-md-4 mb-2">
                                 <div class="form-group">
-                                    <label for="Mobile Number">Total Hours (including if overtime)</label>
+                                    <label for="Mobile Number">Total Hours (including if overtime)<em>*</em></label>
                                     <input type="number" class="form-control" id="txtHours" placeholder="Enter the hours">
                                 </div>
                             </div>
