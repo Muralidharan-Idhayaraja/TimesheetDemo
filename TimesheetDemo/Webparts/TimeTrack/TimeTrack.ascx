@@ -96,8 +96,8 @@
                                 <div class="form-group">
                                     <label for="Country Code">Category</label>
                                     <select class="form-control" id="drpCategory" placeholder="">
-                                        <option value="Select">Select</option>
-                                        <option value="Billable">Billing</option>
+                                        <%-- <option value="Select">Select</option>--%>
+                                        <option value="Billing" selected="selected">Billing</option>
                                         <option value="Non-Billable">Non-Billable</option>
                                         <option value="Upskilling">Upskilling</option>
                                         <option value="Meeting">Meeting</option>
@@ -109,20 +109,20 @@
                         <div class="row">
                             <div class="col-md-4 mb-2">
                                 <div class="form-group">
-                                    <label for="Mobile Number">Hours</label>
-                                    <input type="text" class="form-control" id="txtHours" placeholder="Enter the hours">
+                                    <label for="Mobile Number">Total Hours (including if overtime)</label>
+                                    <input type="number" class="form-control" id="txtHours" placeholder="Enter the hours">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-2">
                                 <div class="form-group">
                                     <label for="Email">Hours (Allowed)</label>
-                                    <input type="text" class="form-control" id="txtHoursAllowed" placeholder="">
+                                    <input type="text" class="form-control" id="txtHoursAllowed" placeholder="" readonly="readonly">
                                 </div>
                             </div>
                             <div class="col-md-4 mb-2">
                                 <div class="form-group">
                                     <label for="Email">Hours (Overtime)</label>
-                                    <input type="text" class="form-control" id="txtHoursOvertime" placeholder="">
+                                    <input type="text" class="form-control" id="txtHoursOvertime" placeholder="" readonly="readonly">
                                 </div>
 
                             </div>
@@ -217,11 +217,11 @@
 </script>
 
 <!-- Custom JS -->
-<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo//Scripts/Controller/Control_Kendo.js"></script>
+<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo/Scripts/Controller/Control_Kendo.js"></script>
 <script type="text/javascript" src="../../../_layouts/15/TimesheetDemo/Designs/toastr/toastr.js"></script>
-<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo//Scripts/main.js"></script>
-<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo//Scripts/kendo/kendo.all.min.js"></script>
-<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo//Scripts/Controller/Control_Timesheet.js"></script>
+<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo/Scripts/main.js"></script>
+<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo/Scripts/kendo/kendo.all.min.js"></script>
+<script type="text/javascript" src="../../../_layouts/15/TimesheetDemo/Scripts/Controller/Control_Timesheet.js"></script>
 
 
 
@@ -235,48 +235,24 @@
 
     function onLoadSetup() {
         $('#sideNavBox').hide();
-    }
 
-    function submit() {
-        var timeInputs = {
-            "title": "Web Input",
-            "description": "Test Description"
-        };
-        $.ajax({
-            type: "POST",
-            url: "http://www.testservice.com/service1.svc/AddTime",
-            data: JSON.stringify(timeInputs),
-            contentType: "application/json;charset=utf-8",
-            headers: { "Allow-Control-Allow-Origin": "*" },
-            dataType: "json",
-            processData: true,
-            success: function (data, status, jqXHR) {
-                toastr.success('Submitted successfully');
-                alert('success ' + data);
-            },
-            error: function (xhr) {
-                alert(xhr.responseText);
+        $('#txtHours').change(function () {
+            if ($('#txtHours').val() != '') {
+                var totalHours = $(this).val();
+                var hoursAllowed = 0;
+                var hoursOvertime = 0;
+                if (totalHours > 8) {
+                    hoursAllowed = 8;
+                    hoursOvertime = totalHours - 8;
+                    $('#txtHoursAllowed').val(hoursAllowed);
+                    $('#txtHoursOvertime').val(hoursOvertime);
+                } else {
+                    $('#txtHoursAllowed').val(totalHours);
+                    $('#txtHoursOvertime').val(0);
+                }
             }
         });
     }
 
-    function showresult_CurrentAssetLocation() {
-
-        var siteURL = _spPageContextInfo.siteAbsoluteUrl;
-        $.ajax({
-            type: "POST",
-            url: siteURL + "/_layouts/15/TimesheetService.aspx/GetTimeSheet",
-            data: '{userId:1}',
-            dataType: "json",
-            contentType: "application/json; charset=utf-8",
-            success: function (data) {
-                console.log(data)
-            },
-            error(jqXHR, textStatus, errorThrown) {
-                console.log(errorThrown);
-            }
-        });
-
-    }
-
+   
 </script>

@@ -1,3 +1,4 @@
+F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.Office.Server.Search.dll
 F:\GitHub\TimesheetDemo\bin\Debug\TimesheetDemo.dll.config
 F:\GitHub\TimesheetDemo\bin\Debug\TimesheetDemo.dll
 F:\GitHub\TimesheetDemo\bin\Debug\TimesheetDemo.pdb
@@ -18,7 +19,6 @@ F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.Office.Server.dll
 F:\GitHub\TimesheetDemo\bin\Debug\System.Spatial.dll
 F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.SharePoint.Taxonomy.dll
 F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.SharePoint.Client.UserProfiles.dll
-F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.Office.Server.Search.dll
 F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.Office.Server.Search.Applications.dll
 F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.SharePoint.Client.Taxonomy.dll
 F:\GitHub\TimesheetDemo\bin\Debug\Microsoft.SharePoint.Portal.dll

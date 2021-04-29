@@ -22,23 +22,50 @@ namespace TimesheetDemo.Layouts
 
 
         [WebMethod]
-        public static string AddTime(TimesheetType addTime)
+        public static string AddTime(List<string> addTime)
         {
-
-            using (SPSite site = new SPSite(SPContext.Current.Site.Url))
+            string status = "";
+            try
             {
-                using (SPWeb web = site.OpenWeb())
+                using (SPSite site = new SPSite(SPContext.Current.Site.Url))
                 {
-                    SPList list = web.Lists["Timesheet"];
-                    SPListItem item = list.Items.Add();
-                    item["Title"] = addTime.title;
-                    item.Update();
+                    using (SPWeb web = site.OpenWeb())
+                    {
+                        web.AllowUnsafeUpdates = true;
+                        SPList list = web.Lists["Timesheet"];
+                        SPListItem item = list.Items.Add();
+                        item[Constants.fieldTitle] = addTime[0].ToString();
+                        item[Constants.fieldDescription] = addTime[1].ToString();
+                        item[Constants.fieldCategory] = addTime[2].ToString();
+                        item[Constants.fieldHours] = addTime[3].ToString();
+                        item[Constants.fieldHoursStandard] = addTime[4].ToString();
+                        item[Constants.fieldHoursOvertime] = addTime[5].ToString();
+                        item.Update();
+                        web.AllowUnsafeUpdates = false;
+                        status = "success";
+
+                    }
+
                 }
+            }
+            catch (Exception ex)
+            {
+                status = ex.Message.ToString();
 
             }
+            return status;
+        }
 
-            return "success";
+        [WebMethod]
+        public static string TestTime(string value)
+        {
+            return "your value " + value;
+        }
 
+        [WebMethod]
+        public static string TestTimeString(List<string> item)
+        {
+            return "your value " + item.Count;
         }
 
         /// <summary>

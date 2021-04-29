@@ -209,136 +209,127 @@ namespace TimesheetDemo.Webparts.TimeTrack {
                         "d-4 mb-2\">\r\n                                <div class=\"form-group\">\r\n          " +
                         "                          <label for=\"Country Code\">Category</label>\r\n          " +
                         "                          <select class=\"form-control\" id=\"drpCategory\" placehol" +
-                        "der=\"\">\r\n                                        <option value=\"Select\">Select</" +
-                        "option>\r\n                                        <option value=\"Billable\">Billin" +
-                        "g</option>\r\n                                        <option value=\"Non-Billable\"" +
-                        ">Non-Billable</option>\r\n                                        <option value=\"U" +
-                        "pskilling\">Upskilling</option>\r\n                                        <option " +
-                        "value=\"Meeting\">Meeting</option>\r\n                                    </select>\r" +
-                        "\n                                </div>\r\n                            </div>\r\n   " +
-                        "                     </div>\r\n\r\n                        <div class=\"row\">\r\n      " +
-                        "                      <div class=\"col-md-4 mb-2\">\r\n                             " +
-                        "   <div class=\"form-group\">\r\n                                    <label for=\"Mob" +
-                        "ile Number\">Hours</label>\r\n                                    <input type=\"text" +
-                        "\" class=\"form-control\" id=\"txtHours\" placeholder=\"Enter the hours\">\r\n           " +
-                        "                     </div>\r\n                            </div>\r\n               " +
-                        "             <div class=\"col-md-4 mb-2\">\r\n                                <div c" +
-                        "lass=\"form-group\">\r\n                                    <label for=\"Email\">Hours" +
-                        " (Allowed)</label>\r\n                                    <input type=\"text\" class" +
-                        "=\"form-control\" id=\"txtHoursAllowed\" placeholder=\"\">\r\n                          " +
-                        "      </div>\r\n                            </div>\r\n                            <d" +
-                        "iv class=\"col-md-4 mb-2\">\r\n                                <div class=\"form-grou" +
-                        "p\">\r\n                                    <label for=\"Email\">Hours (Overtime)</la" +
-                        "bel>\r\n                                    <input type=\"text\" class=\"form-control" +
-                        "\" id=\"txtHoursOvertime\" placeholder=\"\">\r\n                                </div>\r" +
-                        "\n\r\n                            </div>\r\n                        </div>\r\n\r\n       " +
-                        "                 <br />\r\n                        <br />\r\n\r\n                     " +
-                        "   <div class=\"row\">\r\n                            <div class=\"col mb-2\">\r\n      " +
-                        "                          <div class=\"form-group text-right\">\r\n                 " +
-                        "                   <button type=\"button\" id=\"btnSave\" class=\"sm-btn btn-outline-" +
-                        "primary  mr-3\" value=\"Save\">Save</button>\r\n                                    <" +
-                        "button type=\"button\" id=\"btnCancel\" class=\"sm-btn btn-outline-primary\" value=\"Ca" +
-                        "ncel\">Cancel</button>\r\n                                </div>\r\n                 " +
-                        "           </div>\r\n                        </div>\r\n                    </div>\r\n\r" +
-                        "\n                </div>\r\n\r\n                <!--Add Customer Ends-->\r\n           " +
-                        "     <div class=\"row tab_Results\" id=\"tab_Employees\">\r\n                    <div " +
-                        "class=\"col loaderContent1\">\r\n                        <ul class=\"nav nav-tabs\" id" +
-                        "=\"employeetab\" role=\"tablist\">\r\n                            <li class=\"nav-item " +
-                        "col pl-0 pr-0\">\r\n                                <a class=\"nav-link emp_ViewAll " +
-                        "active\" id=\"tab-all-clients\" data-toggle=\"tab\" href=\"#profile\" role=\"tab\" aria-c" +
-                        "ontrols=\"profile\" aria-selected=\"false\">Timesheet Entries</a>\r\n                 " +
-                        "           </li>\r\n\r\n                        </ul>\r\n                        <div " +
-                        "class=\"preloader1\"><span class=\"preloader-content\" id=\"preloader-Clients\">Loadin" +
-                        "g All Data...</span></div>\r\n                        <div class=\"tab-content p-3\"" +
-                        " id=\"myTabContent\">\r\n                            <div class=\"tab-pane fade show " +
-                        "active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\">\r\n                 " +
-                        "               \r\n                                <div id=\"resultsGrid\"></div>\r\n " +
-                        "                           </div>\r\n                        </div>\r\n             " +
-                        "       </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    <" +
-                        "/div>\r\n\r\n</section>\r\n\r\n\r\n<script type=\"text/javascript\" src=\"https://cdnjs.cloud" +
-                        "flare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"></script>\r\n<script type=" +
-                        "\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/m" +
-                        "oment.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"https://maxcdn.boot" +
-                        "strapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"></script>\r\n<script type=\"text/" +
-                        "javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-" +
-                        "4/5.0.0/js/tempusdominus-bootstrap-4.min.js\"></script>\r\n<script type=\"text/javas" +
-                        "cript\" src=\"https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js\"" +
-                        "></script>\r\n\r\n<!-- Datatable JS -->\r\n\r\n<script type=\"text/x-kendo-template\" id=\"" +
-                        "selectTemplate_ViewMore\">\r\n    <a class=\"view-more item-viewmore\" onclick=\"openp" +
-                        "opup(this)\"><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i><span>View Mor" +
-                        "e</span></a>\r\n</script>\r\n\r\n\r\n\r\n<script type=\"text/x-kendo-template\" id=\"selectTe" +
-                        "mplate_InActive\">\r\n  \r\n         <div class=\"dropdown settings-icon\" data-id=\"#=d" +
-                        "ata.id#\">                                                                       " +
+                        "der=\"\">\r\n                                        \r\n                             " +
+                        "           <option value=\"Billing\" selected=\"selected\">Billing</option>\r\n       " +
+                        "                                 <option value=\"Non-Billable\">Non-Billable</opti" +
+                        "on>\r\n                                        <option value=\"Upskilling\">Upskilli" +
+                        "ng</option>\r\n                                        <option value=\"Meeting\">Mee" +
+                        "ting</option>\r\n                                    </select>\r\n                  " +
+                        "              </div>\r\n                            </div>\r\n                      " +
+                        "  </div>\r\n\r\n                        <div class=\"row\">\r\n                         " +
+                        "   <div class=\"col-md-4 mb-2\">\r\n                                <div class=\"form" +
+                        "-group\">\r\n                                    <label for=\"Mobile Number\">Total H" +
+                        "ours (including if overtime)</label>\r\n                                    <input" +
+                        " type=\"number\" class=\"form-control\" id=\"txtHours\" placeholder=\"Enter the hours\">" +
+                        "\r\n                                </div>\r\n                            </div>\r\n  " +
+                        "                          <div class=\"col-md-4 mb-2\">\r\n                         " +
+                        "       <div class=\"form-group\">\r\n                                    <label for=" +
+                        "\"Email\">Hours (Allowed)</label>\r\n                                    <input type" +
+                        "=\"text\" class=\"form-control\" id=\"txtHoursAllowed\" placeholder=\"\" readonly=\"reado" +
+                        "nly\">\r\n                                </div>\r\n                            </div" +
+                        ">\r\n                            <div class=\"col-md-4 mb-2\">\r\n                    " +
+                        "            <div class=\"form-group\">\r\n                                    <label" +
+                        " for=\"Email\">Hours (Overtime)</label>\r\n                                    <inpu" +
+                        "t type=\"text\" class=\"form-control\" id=\"txtHoursOvertime\" placeholder=\"\" readonly" +
+                        "=\"readonly\">\r\n                                </div>\r\n\r\n                        " +
+                        "    </div>\r\n                        </div>\r\n\r\n                        <br />\r\n  " +
+                        "                      <br />\r\n\r\n                        <div class=\"row\">\r\n     " +
+                        "                       <div class=\"col mb-2\">\r\n                                <" +
+                        "div class=\"form-group text-right\">\r\n                                    <button " +
+                        "type=\"button\" id=\"btnSave\" class=\"sm-btn btn-outline-primary  mr-3\" value=\"Save\"" +
+                        ">Save</button>\r\n                                    <button type=\"button\" id=\"bt" +
+                        "nCancel\" class=\"sm-btn btn-outline-primary\" value=\"Cancel\">Cancel</button>\r\n    " +
+                        "                            </div>\r\n                            </div>\r\n        " +
+                        "                </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n" +
+                        "                <!--Add Customer Ends-->\r\n                <div class=\"row tab_Re" +
+                        "sults\" id=\"tab_Employees\">\r\n                    <div class=\"col loaderContent1\">" +
+                        "\r\n                        <ul class=\"nav nav-tabs\" id=\"employeetab\" role=\"tablis" +
+                        "t\">\r\n                            <li class=\"nav-item col pl-0 pr-0\">\r\n          " +
+                        "                      <a class=\"nav-link emp_ViewAll active\" id=\"tab-all-clients" +
+                        "\" data-toggle=\"tab\" href=\"#profile\" role=\"tab\" aria-controls=\"profile\" aria-sele" +
+                        "cted=\"false\">Timesheet Entries</a>\r\n                            </li>\r\n\r\n       " +
+                        "                 </ul>\r\n                        <div class=\"preloader1\"><span cl" +
+                        "ass=\"preloader-content\" id=\"preloader-Clients\">Loading All Data...</span></div>\r" +
+                        "\n                        <div class=\"tab-content p-3\" id=\"myTabContent\">\r\n      " +
+                        "                      <div class=\"tab-pane fade show active\" id=\"home\" role=\"tab" +
+                        "panel\" aria-labelledby=\"home-tab\">\r\n                                \r\n          " +
+                        "                      <div id=\"resultsGrid\"></div>\r\n                            " +
+                        "</div>\r\n                        </div>\r\n                    </div>\r\n            " +
+                        "    </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</section>\r\n\r\n\r\n<s" +
+                        "cript type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/popper." +
+                        "js/1.12.9/umd/popper.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"http" +
+                        "s://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js\"></script>\r\n<s" +
+                        "cript type=\"text/javascript\" src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0." +
+                        "0/js/bootstrap.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"https://cd" +
+                        "njs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0/js/tempusdominus-bo" +
+                        "otstrap-4.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"https://cdn.jsd" +
+                        "elivr.net/npm/daterangepicker/daterangepicker.min.js\"></script>\r\n\r\n<!-- Datatabl" +
+                        "e JS -->\r\n\r\n<script type=\"text/x-kendo-template\" id=\"selectTemplate_ViewMore\">\r\n" +
+                        "    <a class=\"view-more item-viewmore\" onclick=\"openpopup(this)\"><i class=\"fa fa" +
+                        "-external-link\" aria-hidden=\"true\"></i><span>View More</span></a>\r\n</script>\r\n\r\n" +
+                        "\r\n\r\n<script type=\"text/x-kendo-template\" id=\"selectTemplate_InActive\">\r\n  \r\n    " +
+                        "     <div class=\"dropdown settings-icon\" data-id=\"#=data.id#\">                  " +
                         "                                                                                " +
-                        "          \r\n     <i data-toggle=\"dropdown\" aria-expanded=\"false\" class=\"fa fa-co" +
-                        "gs\" aria-hidden=\"true\"></i>                                                     " +
-                        "                                                  \r\n     <div class=\"dropdown-me" +
-                        "nu dropdown-menu-right\">\r\n            <a class=\"dropdown-item item-edit d-flex a" +
-                        "lign-items-center\" onclick=\'EditListItem(this)\'><span class=\"setting-dropdown\"><" +
-                        "i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i></span><span>Edit</span><" +
-                        "/a> \r\n            <a class=\"dropdown-item d-flex align-items-center\" onclick=\'Se" +
-                        "ndInvitation(this)\'><span class=\"setting-dropdown\"><i class=\"fa fa-paper-plane-o" +
-                        "\" aria-hidden=\"true\"></i></span><span>Send Invitation</span></a>     \r\n         " +
-                        "   <a class=\"dropdown-item item-inactive d-flex align-items-center\" onclick=\'Upd" +
-                        "ateItemToInActive(this)\'><span class=\"setting-dropdown\"><i class=\"fa fa-eye-slas" +
-                        "h\" aria-hidden=\"true\"></i></span><span>Make Inactive</span></a>           \r\n    " +
-                        "        <a class=\"dropdown-item item-delete d-flex align-items-center\" onclick=\'" +
-                        "DeleteListItem(this)\'><span class=\"setting-dropdown\"><i class=\"fa fa-trash-o\" ar" +
-                        "ia-hidden=\"true\"></i></span><span>Delete</span></a>                    \r\n       " +
-                        "  \r\n                            \r\n     </div>                                   " +
+                        "                                                               \r\n     <i data-to" +
+                        "ggle=\"dropdown\" aria-expanded=\"false\" class=\"fa fa-cogs\" aria-hidden=\"true\"></i>" +
                         "                                                                                " +
-                        "                                                                        \r\n </div" +
-                        ">\r\n</script>\r\n<script type=\"text/x-kendo-template\" id=\"selectTemplate_Active\">\r\n" +
-                        "  \r\n         <div class=\"dropdown settings-icon\" data-id=\"#=data.id#\">          " +
+                        "                       \r\n     <div class=\"dropdown-menu dropdown-menu-right\">\r\n " +
+                        "           <a class=\"dropdown-item item-edit d-flex align-items-center\" onclick=" +
+                        "\'EditListItem(this)\'><span class=\"setting-dropdown\"><i class=\"fa fa-pencil-squar" +
+                        "e-o\" aria-hidden=\"true\"></i></span><span>Edit</span></a> \r\n            <a class=" +
+                        "\"dropdown-item d-flex align-items-center\" onclick=\'SendInvitation(this)\'><span c" +
+                        "lass=\"setting-dropdown\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i></" +
+                        "span><span>Send Invitation</span></a>     \r\n            <a class=\"dropdown-item " +
+                        "item-inactive d-flex align-items-center\" onclick=\'UpdateItemToInActive(this)\'><s" +
+                        "pan class=\"setting-dropdown\"><i class=\"fa fa-eye-slash\" aria-hidden=\"true\"></i><" +
+                        "/span><span>Make Inactive</span></a>           \r\n            <a class=\"dropdown-" +
+                        "item item-delete d-flex align-items-center\" onclick=\'DeleteListItem(this)\'><span" +
+                        " class=\"setting-dropdown\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span" +
+                        "><span>Delete</span></a>                    \r\n         \r\n                       " +
+                        "     \r\n     </div>                                                              " +
                         "                                                                                " +
-                        "                                                                       \r\n     <i" +
-                        " data-toggle=\"dropdown\" aria-expanded=\"false\" class=\"fa fa-cogs\" aria-hidden=\"tr" +
-                        "ue\"></i>                                                                        " +
-                        "                               \r\n     <div class=\"dropdown-menu dropdown-menu-ri" +
-                        "ght\">\r\n            <a class=\"dropdown-item item-edit d-flex align-items-center\" " +
-                        "onclick=\'EditListItem(this)\'><span class=\"setting-dropdown\"><i class=\"fa fa-penc" +
-                        "il-square-o\" aria-hidden=\"true\"></i></span><span>Edit</span></a> \r\n            <" +
-                        "a class=\"dropdown-item d-flex align-items-center\" onclick=\'SendInvitation(this)\'" +
-                        "><span class=\"setting-dropdown\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true" +
-                        "\"></i></span><span>Send Invitation</span></a>     \r\n            <a class=\"dropdo" +
-                        "wn-item item-active d-flex align-items-center\" onclick=\'UpdateItemToActive(this)" +
-                        "\'><span class=\"setting-dropdown\"><i class=\"fa fa-eye-slash\" aria-hidden=\"true\"><" +
-                        "/i></span><span>Make Active</span></a>           \r\n            <a class=\"dropdow" +
-                        "n-item item-delete d-flex align-items-center\" onclick=\'DeleteListItem(this)\'><sp" +
-                        "an class=\"setting-dropdown\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></sp" +
-                        "an><span>Delete</span></a>                    \r\n         \r\n                     " +
-                        "       \r\n     </div>                                                            " +
+                        "                                             \r\n </div>\r\n</script>\r\n<script type=" +
+                        "\"text/x-kendo-template\" id=\"selectTemplate_Active\">\r\n  \r\n         <div class=\"dr" +
+                        "opdown settings-icon\" data-id=\"#=data.id#\">                                     " +
                         "                                                                                " +
-                        "                                               \r\n </div>\r\n</script>\r\n\r\n<!-- Cust" +
-                        "om JS -->\r\n<script type=\"text/javascript\" src=\"../../../_layouts/15/TimesheetDem" +
-                        "o//Scripts/Controller/Control_Kendo.js\"></script>\r\n<script type=\"text/javascript" +
-                        "\" src=\"../../../_layouts/15/TimesheetDemo/Designs/toastr/toastr.js\"></script>\r\n<" +
-                        "script type=\"text/javascript\" src=\"../../../_layouts/15/TimesheetDemo//Scripts/m" +
-                        "ain.js\"></script>\r\n<script type=\"text/javascript\" src=\"../../../_layouts/15/Time" +
-                        "sheetDemo//Scripts/kendo/kendo.all.min.js\"></script>\r\n<script type=\"text/javascr" +
-                        "ipt\" src=\"../../../_layouts/15/TimesheetDemo//Scripts/Controller/Control_Timeshe" +
-                        "et.js\"></script>\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n    $(document).ready(f" +
-                        "unction () {\r\n        onLoadSetup();\r\n        $(\'#addemployee\').click(function (" +
-                        ") {\r\n            $(\'#tab_Employees\').hide();\r\n        });\r\n    });\r\n\r\n    functi" +
-                        "on onLoadSetup() {\r\n        $(\'#sideNavBox\').hide();\r\n    }\r\n\r\n    function subm" +
-                        "it() {\r\n        var timeInputs = {\r\n            \"title\": \"Web Input\",\r\n         " +
-                        "   \"description\": \"Test Description\"\r\n        };\r\n        $.ajax({\r\n            " +
-                        "type: \"POST\",\r\n            url: \"http://www.testservice.com/service1.svc/AddTime" +
-                        "\",\r\n            data: JSON.stringify(timeInputs),\r\n            contentType: \"app" +
-                        "lication/json;charset=utf-8\",\r\n            headers: { \"Allow-Control-Allow-Origi" +
-                        "n\": \"*\" },\r\n            dataType: \"json\",\r\n            processData: true,\r\n     " +
-                        "       success: function (data, status, jqXHR) {\r\n                toastr.success" +
-                        "(\'Submitted successfully\');\r\n                alert(\'success \' + data);\r\n        " +
-                        "    },\r\n            error: function (xhr) {\r\n                alert(xhr.responseT" +
-                        "ext);\r\n            }\r\n        });\r\n    }\r\n\r\n    function showresult_CurrentAsset" +
-                        "Location() {\r\n\r\n        var siteURL = _spPageContextInfo.siteAbsoluteUrl;\r\n     " +
-                        "   $.ajax({\r\n            type: \"POST\",\r\n            url: siteURL + \"/_layouts/15" +
-                        "/TimesheetService.aspx/GetTimeSheet\",\r\n            data: \'{userId:1}\',\r\n        " +
-                        "    dataType: \"json\",\r\n            contentType: \"application/json; charset=utf-8" +
-                        "\",\r\n            success: function (data) {\r\n                console.log(data)\r\n " +
-                        "           },\r\n            error(jqXHR, textStatus, errorThrown) {\r\n            " +
-                        "    console.log(errorThrown);\r\n            }\r\n        });\r\n\r\n    }\r\n\r\n</script>\r" +
-                        "\n"));
+                        "                                            \r\n     <i data-toggle=\"dropdown\" ari" +
+                        "a-expanded=\"false\" class=\"fa fa-cogs\" aria-hidden=\"true\"></i>                   " +
+                        "                                                                                " +
+                        "    \r\n     <div class=\"dropdown-menu dropdown-menu-right\">\r\n            <a class" +
+                        "=\"dropdown-item item-edit d-flex align-items-center\" onclick=\'EditListItem(this)" +
+                        "\'><span class=\"setting-dropdown\"><i class=\"fa fa-pencil-square-o\" aria-hidden=\"t" +
+                        "rue\"></i></span><span>Edit</span></a> \r\n            <a class=\"dropdown-item d-fl" +
+                        "ex align-items-center\" onclick=\'SendInvitation(this)\'><span class=\"setting-dropd" +
+                        "own\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i></span><span>Send Inv" +
+                        "itation</span></a>     \r\n            <a class=\"dropdown-item item-active d-flex " +
+                        "align-items-center\" onclick=\'UpdateItemToActive(this)\'><span class=\"setting-drop" +
+                        "down\"><i class=\"fa fa-eye-slash\" aria-hidden=\"true\"></i></span><span>Make Active" +
+                        "</span></a>           \r\n            <a class=\"dropdown-item item-delete d-flex a" +
+                        "lign-items-center\" onclick=\'DeleteListItem(this)\'><span class=\"setting-dropdown\"" +
+                        "><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span><span>Delete</span></a> " +
+                        "                   \r\n         \r\n                            \r\n     </div>       " +
+                        "                                                                                " +
+                        "                                                                                " +
+                        "                    \r\n </div>\r\n</script>\r\n\r\n<!-- Custom JS -->\r\n<script type=\"te" +
+                        "xt/javascript\" src=\"../../../_layouts/15/TimesheetDemo/Scripts/Controller/Contro" +
+                        "l_Kendo.js\"></script>\r\n<script type=\"text/javascript\" src=\"../../../_layouts/15/" +
+                        "TimesheetDemo/Designs/toastr/toastr.js\"></script>\r\n<script type=\"text/javascript" +
+                        "\" src=\"../../../_layouts/15/TimesheetDemo/Scripts/main.js\"></script>\r\n<script ty" +
+                        "pe=\"text/javascript\" src=\"../../../_layouts/15/TimesheetDemo/Scripts/kendo/kendo" +
+                        ".all.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"../../../_layouts/15" +
+                        "/TimesheetDemo/Scripts/Controller/Control_Timesheet.js\"></script>\r\n\r\n\r\n\r\n<script" +
+                        " type=\"text/javascript\">\r\n    $(document).ready(function () {\r\n        onLoadSet" +
+                        "up();\r\n        $(\'#addemployee\').click(function () {\r\n            $(\'#tab_Employ" +
+                        "ees\').hide();\r\n        });\r\n    });\r\n\r\n    function onLoadSetup() {\r\n        $(\'" +
+                        "#sideNavBox\').hide();\r\n\r\n        $(\'#txtHours\').change(function () {\r\n          " +
+                        "  if ($(\'#txtHours\').val() != \'\') {\r\n                var totalHours = $(this).va" +
+                        "l();\r\n                var hoursAllowed = 0;\r\n                var hoursOvertime =" +
+                        " 0;\r\n                if (totalHours > 8) {\r\n                    hoursAllowed = 8" +
+                        ";\r\n                    hoursOvertime = totalHours - 8;\r\n                    $(\'#" +
+                        "txtHoursAllowed\').val(hoursAllowed);\r\n                    $(\'#txtHoursOvertime\')" +
+                        ".val(hoursOvertime);\r\n                } else {\r\n                    $(\'#txtHours" +
+                        "Allowed\').val(totalHours);\r\n                    $(\'#txtHoursOvertime\').val(0);\r\n" +
+                        "                }\r\n            }\r\n        });\r\n    }\r\n\r\n   \r\n</script>\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

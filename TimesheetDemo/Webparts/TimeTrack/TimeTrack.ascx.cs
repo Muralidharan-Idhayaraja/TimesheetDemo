@@ -19,11 +19,14 @@ namespace TimesheetDemo.Webparts.TimeTrack
         protected override void OnInit(EventArgs e)
         {
             base.OnInit(e);
+            ChromeType = PartChromeType.None;
             InitializeControl();
         }
+     
 
         protected void Page_Load(object sender, EventArgs e)
         {
+
             
         }
     }
